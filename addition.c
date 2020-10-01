@@ -1,11 +1,11 @@
 #include<sdio.h>
-#include<conio.h>
+
 
 int main()
 {
-int a,b,c;
+float a,b,sum;
 pintf("Enter the two numbers");
-scanf("%d%d",&a,&b);
-c=a+b;
-pintf("Sum of numbers is %d",c);
+scanf("%.2f%.2f",&a,&b);
+sum=a+b;
+pintf("Sum of numbers is %f",sum);
 }
