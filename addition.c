@@ -1,12 +1,15 @@
 #include<stdio.h>
-#include<conio.h>
-
+void add();                                               //Function Declaration
 int main()
 {
-int a,b,c;
-printf("Enter the two numbers\n");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("Sum of numbers is %d",c);
-return 0;
+  add();                                                  //Function Calling
+  return 0;
+}
+void add()                                                //Function Definition
+{
+   int a,b,c;
+   printf("\nEnter The Two values:");
+   scanf("%d%d",&a,&b);
+   c=a+b;
+   printf("Addition:%d",c);
 }
