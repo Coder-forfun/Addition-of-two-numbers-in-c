@@ -1,12 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
-int a,b,c;
-printf("Enter the two numbers\n");
-scanf("%d%d",&a,&b);
+float a,b,c;
+printf("Enter the number 1: \n");
+scanf("%f",&a);
+printf("Enter the number 2: \n");
+scanf("%f",&b);
 c=a+b;
-printf("Sum of numbers is %d",c);
+printf("Sum of numbers is: \n%f",c);
 return 0;
 }
